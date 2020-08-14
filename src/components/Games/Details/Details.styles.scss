@@ -1,0 +1,38 @@
+.gdetails {
+  &__title {
+    margin: 0;
+  }
+
+  &__back {
+    margin-top: 0.5rem!important;
+  }
+
+  &__released {
+    margin-top: 0;
+  }
+  
+  &__description {
+    p {
+      margin-top: 0;
+    }
+    h3 {
+      margin-bottom: 0;
+    }
+  } 
+}
+
+.screenshot {
+  &-image-container {
+  height: 200px;
+  }
+  &-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+}
+
+.MuiRating-iconEmpty {
+  color: rgb(71, 71, 71)!important;
+}
